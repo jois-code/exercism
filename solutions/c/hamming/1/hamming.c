@@ -1,0 +1,12 @@
+#include "hamming.h"
+
+int compute(const char *lhs, const char *rhs)
+{
+    if(strlen(lhs)!=strlen(rhs))
+        return -1;
+    int i=0,count = 0;
+    for(i=0;lhs[i]!='\0';i++)
+        if(lhs[i]!=rhs[i])
+            count++;
+    return count;
+}
