@@ -1,2 +1,2 @@
-# exercism-c
+# exercism
 My Exercism Solutions
